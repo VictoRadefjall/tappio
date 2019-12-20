@@ -2,13 +2,18 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/beer-index">Öl-Index</router-link> |
+      <router-link to="/city">Sök Stad</router-link> |
+      <router-link to="/more">Ölrelaterat</router-link>
     </div>
     <router-view/>
   </div>
 </template>
 
 <style lang="scss">
+body {
+  margin: 0;
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -18,6 +23,7 @@
 }
 #nav {
   padding: 30px;
+  // background: wheat;
   a {
     font-weight: bold;
     color: #2c3e50;
