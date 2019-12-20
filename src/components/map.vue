@@ -210,8 +210,6 @@ export default {
     },
     mounted(){
         this.initMap;
-        this.initMap;
-        this.initMap;
     }
 
 
